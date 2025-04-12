@@ -1,0 +1,27 @@
+{
+  "name": "mastra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@mastra/core": "^0.8.2",
+    "@types/node": "^22.14.1",
+    "mastra": "^0.4.8",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3",
+    "zod": "^3.24.2"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^1.2.10",
+    "@mastra/mcp": "^0.3.9",
+    "dotenv": "^16.5.0",
+    "playwright": "^1.51.1"
+  }
+}
